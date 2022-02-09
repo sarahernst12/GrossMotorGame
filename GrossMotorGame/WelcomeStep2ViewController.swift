@@ -9,8 +9,8 @@ import UIKit
 
 class WelcomeStep2ViewController: UIViewController {
 
-    @IBOutlet weak var emailFieldLabel: UILabel!
-    @IBOutlet weak var emailField: UITextField!
+    @IBOutlet weak var beginGameFieldLabel: UILabel!
+    @IBOutlet weak var beginGameField: UITextField!
     @IBOutlet weak var nextButton: UIButton!
     
     //create model for user
@@ -20,7 +20,7 @@ class WelcomeStep2ViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        self.emailFieldLabel.text = "Hi \(user!.name!). What is your email?"
+        self.beginGameFieldLabel.text = "Thank you user: \(user!.accessCode!). The following games are available for your play."
     }
     
 

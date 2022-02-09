@@ -10,7 +10,7 @@ import UIKit
 class User: NSObject {
     
     //adding necessary properties to the user class
-    var name: String?
-    var email: String?
+    var accessCode: String?
+    var beginGame: String?
 
 }

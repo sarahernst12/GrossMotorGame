@@ -9,10 +9,9 @@ import UIKit
 
 class WelcomeStep1ViewControlViewController: UIViewController {
 
-    @IBOutlet weak var nameFieldLabel: UILabel!
-    @IBOutlet weak var nameField: UITextField!
-    @IBOutlet weak var nextButton: UIButton!
-    
+    @IBOutlet weak var accessCodeFieldLabel: UILabel!
+    @IBOutlet weak var accessCodeField: UITextField!
+    @IBOutlet weak var submitButton: UIButton!
     //create usable user model
     var user: User? //use question mark for safety
     
@@ -26,7 +25,7 @@ class WelcomeStep1ViewControlViewController: UIViewController {
     //to catch the segue in action - use prepare function that's included in all subclasses of UIViewController
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         //need to assign value of name field to user object
-        self.user?.name = nameField.text
+        self.user?.accessCode = accessCodeField.text
         
         //grab reference to destination view controller
         //use destination and case it as welcomestep2
@@ -38,13 +37,14 @@ class WelcomeStep1ViewControlViewController: UIViewController {
         
     }
     
-    //checking length of text entered by user for name field
+    //checking length of text entered by user for access code
     override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
-        if let name = nameField.text, name.count >= 2 {
+        if let accessCode = accessCodeField.text, accessCode.count >= 8 {
             return true
         }
-        //add alert so user knows its an invalid name
-        let alertController = UIAlertController(title: "Wait a minute!", message: "Please enter at least 2 characters for name", preferredStyle: .alert)
+        //add alert so user knows its an invalid access code
+        //currently: invalid access code is when user puts in code < 8 characters
+        let alertController = UIAlertController(title: "Wait a minute!", message: "Please enter a valid access code, or press 'Forgot your code' below", preferredStyle: .alert)
         let okAction = UIAlertAction(title: "OK!", style: .default, handler: nil)
         alertController.addAction(okAction)
         self.present(alertController, animated: true, completion: nil)
