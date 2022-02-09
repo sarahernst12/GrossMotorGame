@@ -16,6 +16,9 @@
 		18A466E327B0283000B43A23 /* GrossMotorGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A466E227B0283000B43A23 /* GrossMotorGameTests.swift */; };
 		18A466ED27B0283000B43A23 /* GrossMotorGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A466EC27B0283000B43A23 /* GrossMotorGameUITests.swift */; };
 		18A466EF27B0283000B43A23 /* GrossMotorGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A466EE27B0283000B43A23 /* GrossMotorGameUITestsLaunchTests.swift */; };
+		18A466FC27B466B500B43A23 /* WelcomeStep1ViewControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A466FB27B466B500B43A23 /* WelcomeStep1ViewControlViewController.swift */; };
+		18A466FE27B466D400B43A23 /* WelcomeStep2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A466FD27B466D400B43A23 /* WelcomeStep2ViewController.swift */; };
+		18A4670027B466EB00B43A23 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A466FF27B466EB00B43A23 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		18A466E827B0283000B43A23 /* GrossMotorGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrossMotorGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A466EC27B0283000B43A23 /* GrossMotorGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrossMotorGameUITests.swift; sourceTree = "<group>"; };
 		18A466EE27B0283000B43A23 /* GrossMotorGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrossMotorGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		18A466FB27B466B500B43A23 /* WelcomeStep1ViewControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeStep1ViewControlViewController.swift; sourceTree = "<group>"; };
+		18A466FD27B466D400B43A23 /* WelcomeStep2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeStep2ViewController.swift; sourceTree = "<group>"; };
+		18A466FF27B466EB00B43A23 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +108,13 @@
 				18A466CB27B0282F00B43A23 /* AppDelegate.swift */,
 				18A466CD27B0282F00B43A23 /* SceneDelegate.swift */,
 				18A466CF27B0282F00B43A23 /* ViewController.swift */,
-				18A466D127B0282F00B43A23 /* Main.storyboard */,
 				18A466D427B0283000B43A23 /* Assets.xcassets */,
 				18A466D627B0283000B43A23 /* LaunchScreen.storyboard */,
+				18A466D127B0282F00B43A23 /* Main.storyboard */,
 				18A466D927B0283000B43A23 /* Info.plist */,
+				18A466FB27B466B500B43A23 /* WelcomeStep1ViewControlViewController.swift */,
+				18A466FD27B466D400B43A23 /* WelcomeStep2ViewController.swift */,
+				18A466FF27B466EB00B43A23 /* User.swift */,
 			);
 			path = GrossMotorGame;
 			sourceTree = "<group>";
@@ -259,7 +268,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				18A466D027B0282F00B43A23 /* ViewController.swift in Sources */,
+				18A466FE27B466D400B43A23 /* WelcomeStep2ViewController.swift in Sources */,
+				18A4670027B466EB00B43A23 /* User.swift in Sources */,
 				18A466CC27B0282F00B43A23 /* AppDelegate.swift in Sources */,
+				18A466FC27B466B500B43A23 /* WelcomeStep1ViewControlViewController.swift in Sources */,
 				18A466CE27B0282F00B43A23 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
