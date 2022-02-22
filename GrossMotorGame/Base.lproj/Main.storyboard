@@ -34,13 +34,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please enter your unique access code:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T1h-Ez-yRT" userLabel="Access Code Label">
-                                <rect key="frame" x="20" y="311" width="1326" height="96"/>
-                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="70"/>
+                                <rect key="frame" x="20" y="311" width="1326" height="81"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="59"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="ABCD1234" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FHx-Xh-FUZ" userLabel="Access Code">
-                                <rect key="frame" x="20" y="482" width="1326" height="111"/>
+                                <rect key="frame" x="20" y="467" width="1326" height="126"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" autocorrectionType="no" textContentType="one-time-code"/>
                             </textField>
@@ -58,9 +58,11 @@
                                     <segue destination="qk8-d7-5KG" kind="show" id="jFb-KC-wqj"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vRH-Im-WN4">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vRH-Im-WN4">
                                 <rect key="frame" x="969" y="868" width="346" height="67"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="67" id="ZII-63-eHl"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="Forgot your code? Click Here!">
                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle1"/>
@@ -73,9 +75,12 @@
                         <viewLayoutGuide key="safeArea" id="eb7-Yc-cBC"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="vRH-Im-WN4" firstAttribute="leading" secondItem="eb7-Yc-cBC" secondAttribute="leading" constant="969" id="2ce-lp-pt2"/>
                             <constraint firstItem="T1h-Ez-yRT" firstAttribute="top" secondItem="eb7-Yc-cBC" secondAttribute="top" constant="237" id="7L6-gZ-1vw"/>
                             <constraint firstItem="FHx-Xh-FUZ" firstAttribute="top" secondItem="T1h-Ez-yRT" secondAttribute="bottom" constant="75" id="7Pj-Q7-RPt"/>
                             <constraint firstItem="FHx-Xh-FUZ" firstAttribute="leading" secondItem="eb7-Yc-cBC" secondAttribute="leading" constant="20" id="AUI-hN-vNm"/>
+                            <constraint firstItem="eb7-Yc-cBC" firstAttribute="trailing" secondItem="vRH-Im-WN4" secondAttribute="trailing" constant="51" id="CUM-bd-nbc"/>
+                            <constraint firstItem="eb7-Yc-cBC" firstAttribute="bottom" secondItem="vRH-Im-WN4" secondAttribute="bottom" constant="69" id="Pkh-aB-16B"/>
                             <constraint firstItem="GM4-jf-19f" firstAttribute="top" secondItem="FHx-Xh-FUZ" secondAttribute="bottom" constant="75" id="cA2-Ub-2hx"/>
                             <constraint firstItem="T1h-Ez-yRT" firstAttribute="leading" secondItem="eb7-Yc-cBC" secondAttribute="leading" constant="20" id="cbX-IT-6nP"/>
                             <constraint firstItem="eb7-Yc-cBC" firstAttribute="trailing" secondItem="T1h-Ez-yRT" secondAttribute="trailing" constant="20" id="l6M-h9-Z9Z"/>
