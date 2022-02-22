@@ -58,6 +58,17 @@
                                     <segue destination="qk8-d7-5KG" kind="show" id="jFb-KC-wqj"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vRH-Im-WN4">
+                                <rect key="frame" x="969" y="868" width="346" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Forgot your code? Click Here!">
+                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle1"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="1rH-yr-FDL" kind="show" id="TWf-tX-zGF"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="eb7-Yc-cBC"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -130,6 +141,35 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M1u-Hv-P29" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="925.91508052708627" y="47.4609375"/>
+        </scene>
+        <!--Forgotten Code-->
+        <scene sceneID="qfJ-7n-cgb">
+            <objects>
+                <viewController id="1rH-yr-FDL" customClass="ForgottenCode" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KNl-p3-cDg">
+                        <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Forgot your Code?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Ny-rQ-Z5E" userLabel="Forgotten Code Label">
+                                <rect key="frame" x="408.5" y="115" width="482" height="72"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="60"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Mol-Cl-baw"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Mol-Cl-baw" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="6Ny-rQ-Z5E" secondAttribute="trailing" symbolic="YES" id="YDz-mI-iHk"/>
+                            <constraint firstItem="6Ny-rQ-Z5E" firstAttribute="leading" secondItem="Mol-Cl-baw" secondAttribute="leading" constant="408.5" id="ddE-q7-75R"/>
+                            <constraint firstItem="6Ny-rQ-Z5E" firstAttribute="top" secondItem="Mol-Cl-baw" secondAttribute="top" constant="41" id="pVA-0m-Szb"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="a8x-lA-9Sc"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="10h-PK-DzM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="26" y="765"/>
         </scene>
     </scenes>
     <resources>

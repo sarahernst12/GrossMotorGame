@@ -20,7 +20,7 @@ class WelcomeStep2ViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        self.beginGameFieldLabel.text = "Thank you user: \(user!.accessCode!). The following games are available for your play."
+//        self.beginGameFieldLabel.text = "Thank you user: \(user!.accessCode!). The following games //are available for your play."
     }
     
 
