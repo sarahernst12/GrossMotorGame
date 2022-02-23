@@ -33,14 +33,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please enter your unique access code:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T1h-Ez-yRT" userLabel="Access Code Label">
-                                <rect key="frame" x="20" y="311" width="1326" height="81"/>
-                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="59"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="ABCD1234" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FHx-Xh-FUZ" userLabel="Access Code">
-                                <rect key="frame" x="20" y="467" width="1326" height="126"/>
+                                <rect key="frame" x="20" y="462.5" width="1326" height="130.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" autocorrectionType="no" textContentType="one-time-code"/>
                             </textField>
@@ -59,7 +53,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vRH-Im-WN4">
-                                <rect key="frame" x="969" y="868" width="346" height="67"/>
+                                <rect key="frame" x="973.5" y="868" width="341.5" height="67"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="67" id="ZII-63-eHl"/>
                                 </constraints>
@@ -71,19 +65,22 @@
                                     <segue destination="1rH-yr-FDL" kind="show" id="TWf-tX-zGF"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Please enter your unique access code:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T1h-Ez-yRT" userLabel="Access Code Label">
+                                <rect key="frame" x="196" y="311" width="1018.5" height="76.5"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="56"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="eb7-Yc-cBC"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="vRH-Im-WN4" firstAttribute="leading" secondItem="eb7-Yc-cBC" secondAttribute="leading" constant="969" id="2ce-lp-pt2"/>
                             <constraint firstItem="T1h-Ez-yRT" firstAttribute="top" secondItem="eb7-Yc-cBC" secondAttribute="top" constant="237" id="7L6-gZ-1vw"/>
                             <constraint firstItem="FHx-Xh-FUZ" firstAttribute="top" secondItem="T1h-Ez-yRT" secondAttribute="bottom" constant="75" id="7Pj-Q7-RPt"/>
                             <constraint firstItem="FHx-Xh-FUZ" firstAttribute="leading" secondItem="eb7-Yc-cBC" secondAttribute="leading" constant="20" id="AUI-hN-vNm"/>
                             <constraint firstItem="eb7-Yc-cBC" firstAttribute="trailing" secondItem="vRH-Im-WN4" secondAttribute="trailing" constant="51" id="CUM-bd-nbc"/>
                             <constraint firstItem="eb7-Yc-cBC" firstAttribute="bottom" secondItem="vRH-Im-WN4" secondAttribute="bottom" constant="69" id="Pkh-aB-16B"/>
                             <constraint firstItem="GM4-jf-19f" firstAttribute="top" secondItem="FHx-Xh-FUZ" secondAttribute="bottom" constant="75" id="cA2-Ub-2hx"/>
-                            <constraint firstItem="T1h-Ez-yRT" firstAttribute="leading" secondItem="eb7-Yc-cBC" secondAttribute="leading" constant="20" id="cbX-IT-6nP"/>
-                            <constraint firstItem="eb7-Yc-cBC" firstAttribute="trailing" secondItem="T1h-Ez-yRT" secondAttribute="trailing" constant="20" id="l6M-h9-Z9Z"/>
                             <constraint firstItem="eb7-Yc-cBC" firstAttribute="trailing" secondItem="FHx-Xh-FUZ" secondAttribute="trailing" constant="20" id="mpx-Fq-arP"/>
                             <constraint firstItem="GM4-jf-19f" firstAttribute="top" secondItem="eb7-Yc-cBC" secondAttribute="top" constant="594" id="nCq-8R-wYp"/>
                             <constraint firstItem="GM4-jf-19f" firstAttribute="centerX" secondItem="pKB-RV-rj9" secondAttribute="centerX" id="unN-oz-8ig"/>
@@ -124,6 +121,9 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Continue to Play">
                                     <fontDescription key="titleFontDescription" name="AlNile-Bold" family="Al Nile" pointSize="40"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="z9u-0F-4oT" kind="show" id="avb-2K-3Nz"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Aok-Pe-pva"/>
@@ -176,8 +176,64 @@
             </objects>
             <point key="canvasLocation" x="26" y="765"/>
         </scene>
+        <!--Instructions1-->
+        <scene sceneID="ESY-nu-A0h">
+            <objects>
+                <viewController id="z9u-0F-4oT" customClass="Instructions1" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vno-8s-UyN">
+                        <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lMq-fO-UCj" userLabel="number1">
+                                <rect key="frame" x="190" y="433" width="28" height="72"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="60"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please turn the device horizontal" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t0H-1P-WUE" userLabel="Turnsideways">
+                                <rect key="frame" x="298" y="433" width="844" height="72"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="60"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fux-v3-VIS">
+                                <rect key="frame" x="533" y="812" width="300" height="93"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="93" id="XVu-1x-TQd"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="I am Horizontal!">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="39"/>
+                                </buttonConfiguration>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" misplaced="YES" image="ipad.homebutton.landscape" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Ilf-I5-ZHz">
+                                <rect key="frame" x="490" y="507" width="387" height="234"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="PST-MU-jAU"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="lMq-fO-UCj" firstAttribute="leading" secondItem="PST-MU-jAU" secondAttribute="leading" constant="190" id="5Pw-ta-lER"/>
+                            <constraint firstItem="lMq-fO-UCj" firstAttribute="top" secondItem="PST-MU-jAU" secondAttribute="top" constant="359" id="5vc-YH-UoG"/>
+                            <constraint firstItem="Fux-v3-VIS" firstAttribute="centerX" secondItem="Ilf-I5-ZHz" secondAttribute="centerX" constant="-0.5" id="G1M-Qo-qz2"/>
+                            <constraint firstItem="t0H-1P-WUE" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="lMq-fO-UCj" secondAttribute="trailing" symbolic="YES" id="KO8-TT-xSX"/>
+                            <constraint firstItem="Fux-v3-VIS" firstAttribute="leading" secondItem="PST-MU-jAU" secondAttribute="leading" constant="533" id="Q19-Zq-6db"/>
+                            <constraint firstItem="PST-MU-jAU" firstAttribute="bottom" secondItem="Fux-v3-VIS" secondAttribute="bottom" constant="99" id="SJW-wM-CLx"/>
+                            <constraint firstItem="lMq-fO-UCj" firstAttribute="baseline" secondItem="t0H-1P-WUE" secondAttribute="baseline" id="gB0-yo-U1C"/>
+                            <constraint firstItem="Fux-v3-VIS" firstAttribute="top" secondItem="Ilf-I5-ZHz" secondAttribute="bottom" constant="69.5" id="mnW-Id-PKv"/>
+                            <constraint firstItem="Fux-v3-VIS" firstAttribute="centerX" secondItem="vno-8s-UyN" secondAttribute="centerX" id="vKu-Ev-Vtu"/>
+                            <constraint firstItem="PST-MU-jAU" firstAttribute="trailing" secondItem="t0H-1P-WUE" secondAttribute="trailing" constant="224" id="yCL-ox-31E"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="tIH-cN-kZ4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pHc-1c-Ld1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1652.8550512445095" y="47.4609375"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="ipad.homebutton.landscape" catalog="system" width="128" height="93"/>
         <systemColor name="opaqueSeparatorColor">
             <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
