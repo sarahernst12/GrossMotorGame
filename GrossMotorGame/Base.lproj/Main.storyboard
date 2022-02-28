@@ -32,21 +32,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="ABCD1234" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FHx-Xh-FUZ" userLabel="Access Code">
-                                <rect key="frame" x="385" y="427" width="596" height="82"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="596" id="KTO-Se-jHW"/>
-                                    <constraint firstAttribute="height" constant="82" id="Nza-rO-WId"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" autocorrectionType="no" textContentType="one-time-code"/>
-                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GM4-jf-19f" userLabel="Submit Button">
-                                <rect key="frame" x="566" y="587" width="235" height="89.5"/>
+                                <rect key="frame" x="565.5" y="626.5" width="235" height="89.5"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="235" id="P9z-1H-L5S"/>
-                                    <constraint firstAttribute="height" constant="89.5" id="f9y-ye-LBF"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="235" id="yog-xI-VRS"/>
+                                    <constraint firstAttribute="height" constant="89.5" id="qw1-RV-Rnm"/>
                                 </constraints>
                                 <size key="titleShadowOffset" width="10" height="10"/>
                                 <state key="normal" title="Button"/>
@@ -59,9 +48,6 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vRH-Im-WN4">
                                 <rect key="frame" x="973.5" y="868" width="341.5" height="67"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="341.5" id="TsR-ZG-a35"/>
-                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="Forgot your code? Click Here!">
                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle1"/>
@@ -70,25 +56,35 @@
                                     <segue destination="1rH-yr-FDL" kind="show" id="TWf-tX-zGF"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please enter your unique access code:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T1h-Ez-yRT" userLabel="Access Code Label">
-                                <rect key="frame" x="174" y="299" width="1018.5" height="60.5"/>
-                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="44"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please enter your unique access code:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T1h-Ez-yRT" userLabel="Access Code Label">
+                                <rect key="frame" x="174" y="299" width="1018.5" height="63"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="46"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="ABCD1234" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FHx-Xh-FUZ" userLabel="Access Code">
+                                <rect key="frame" x="389" y="471" width="588" height="82"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="82" id="QRo-4y-V2M"/>
+                                    <constraint firstAttribute="width" constant="588" id="xcO-1m-GUA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" autocorrectionType="no" textContentType="one-time-code"/>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="eb7-Yc-cBC"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="eb7-Yc-cBC" firstAttribute="bottom" secondItem="GM4-jf-19f" secondAttribute="bottom" constant="327.5" id="4R2-1p-cpE"/>
+                            <constraint firstItem="FHx-Xh-FUZ" firstAttribute="top" secondItem="T1h-Ez-yRT" secondAttribute="bottom" constant="109" id="32A-ZP-aO7"/>
+                            <constraint firstItem="GM4-jf-19f" firstAttribute="top" secondItem="FHx-Xh-FUZ" secondAttribute="bottom" constant="73.5" id="72y-tR-46b"/>
+                            <constraint firstItem="GM4-jf-19f" firstAttribute="centerX" secondItem="pKB-RV-rj9" secondAttribute="centerX" id="BS7-qY-elq"/>
                             <constraint firstItem="eb7-Yc-cBC" firstAttribute="trailing" secondItem="vRH-Im-WN4" secondAttribute="trailing" constant="51" id="FFI-Le-ijP"/>
-                            <constraint firstItem="GM4-jf-19f" firstAttribute="top" secondItem="FHx-Xh-FUZ" secondAttribute="bottom" constant="78" id="KIa-eK-tca"/>
                             <constraint firstItem="T1h-Ez-yRT" firstAttribute="leading" secondItem="eb7-Yc-cBC" secondAttribute="leading" constant="174" id="MDd-lr-r27"/>
-                            <constraint firstItem="vRH-Im-WN4" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="eb7-Yc-cBC" secondAttribute="leading" symbolic="YES" id="NqF-VJ-iHc"/>
-                            <constraint firstItem="FHx-Xh-FUZ" firstAttribute="leading" secondItem="eb7-Yc-cBC" secondAttribute="leading" constant="385" id="Pk7-ap-CTD"/>
-                            <constraint firstItem="eb7-Yc-cBC" firstAttribute="trailing" secondItem="GM4-jf-19f" secondAttribute="trailing" constant="565" id="W71-2C-ObI"/>
-                            <constraint firstItem="GM4-jf-19f" firstAttribute="leading" secondItem="eb7-Yc-cBC" secondAttribute="leading" constant="566" id="WAM-Eu-tWG"/>
-                            <constraint firstItem="eb7-Yc-cBC" firstAttribute="trailing" secondItem="FHx-Xh-FUZ" secondAttribute="trailing" constant="385" id="X4C-32-3Dv"/>
+                            <constraint firstItem="GM4-jf-19f" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="eb7-Yc-cBC" secondAttribute="leading" id="Mye-O3-1dD"/>
+                            <constraint firstItem="eb7-Yc-cBC" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="GM4-jf-19f" secondAttribute="trailing" id="OTA-hq-T4t"/>
+                            <constraint firstItem="vRH-Im-WN4" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="eb7-Yc-cBC" secondAttribute="leading" symbolic="YES" id="P1c-k0-Ww7"/>
+                            <constraint firstItem="FHx-Xh-FUZ" firstAttribute="leading" secondItem="eb7-Yc-cBC" secondAttribute="leading" constant="389" id="SjE-Rb-ESD"/>
+                            <constraint firstItem="eb7-Yc-cBC" firstAttribute="trailing" secondItem="FHx-Xh-FUZ" secondAttribute="trailing" constant="389" id="Whi-dl-oGg"/>
                             <constraint firstItem="vRH-Im-WN4" firstAttribute="top" secondItem="pKB-RV-rj9" secondAttribute="top" constant="868" id="Xi8-Hg-RcG"/>
                             <constraint firstItem="T1h-Ez-yRT" firstAttribute="top" secondItem="eb7-Yc-cBC" secondAttribute="top" constant="225" id="Yav-x3-ko5"/>
                             <constraint firstAttribute="trailingMargin" secondItem="vRH-Im-WN4" secondAttribute="trailing" constant="31" id="ahI-LH-ct2"/>
