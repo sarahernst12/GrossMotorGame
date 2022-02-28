@@ -243,6 +243,9 @@
                                 <buttonConfiguration key="configuration" style="filled" title="I am Horizontal!">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="39"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="7Q1-i1-Pgx" kind="show" id="rai-bl-qJb"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" misplaced="YES" image="ipad.homebutton.landscape" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Ilf-I5-ZHz">
                                 <rect key="frame" x="490" y="507" width="387" height="234"/>
@@ -278,7 +281,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I9l-BK-8QX" userLabel="number1">
-                                <rect key="frame" x="54" y="424" width="36" height="72"/>
+                                <rect key="frame" x="54" y="474" width="36" height="72"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="36" id="qHO-Yn-G9e"/>
                                 </constraints>
@@ -321,6 +324,7 @@
                             <constraint firstItem="vDz-75-il8" firstAttribute="bottom" secondItem="08m-5K-peW" secondAttribute="bottom" constant="264" id="zTo-JU-AtP"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="THM-dX-kaR"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UTl-fk-iIU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
