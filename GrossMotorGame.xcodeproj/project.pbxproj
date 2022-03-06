@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1861AA7127D56CC600F6ED35 /* Avatar Demo 2.27.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1861AA7027D56CC600F6ED35 /* Avatar Demo 2.27.mp4 */; };
 		18A466CC27B0282F00B43A23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A466CB27B0282F00B43A23 /* AppDelegate.swift */; };
 		18A466CE27B0282F00B43A23 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A466CD27B0282F00B43A23 /* SceneDelegate.swift */; };
 		18A466D027B0282F00B43A23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A466CF27B0282F00B43A23 /* ViewController.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1861AA7027D56CC600F6ED35 /* Avatar Demo 2.27.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Avatar Demo 2.27.mp4"; path = "../../../Downloads/Avatar Demo 2.27.mp4"; sourceTree = "<group>"; };
 		18A466C827B0282F00B43A23 /* GrossMotorGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrossMotorGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A466CB27B0282F00B43A23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18A466CD27B0282F00B43A23 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 		18A466CA27B0282F00B43A23 /* GrossMotorGame */ = {
 			isa = PBXGroup;
 			children = (
+				1861AA7027D56CC600F6ED35 /* Avatar Demo 2.27.mp4 */,
 				18A466CB27B0282F00B43A23 /* AppDelegate.swift */,
 				18A466CD27B0282F00B43A23 /* SceneDelegate.swift */,
 				18A466CF27B0282F00B43A23 /* ViewController.swift */,
@@ -240,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1861AA7127D56CC600F6ED35 /* Avatar Demo 2.27.mp4 in Resources */,
 				18A466D827B0283000B43A23 /* LaunchScreen.storyboard in Resources */,
 				18A466D527B0283000B43A23 /* Assets.xcassets in Resources */,
 				18A466D327B0282F00B43A23 /* Main.storyboard in Resources */,
