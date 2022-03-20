@@ -12,6 +12,7 @@
 		1861AA7927E7B88A00F6ED35 /* ForgottencodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1861AA7827E7B88A00F6ED35 /* ForgottencodeViewController.swift */; };
 		1861AA7B27E7C08B00F6ED35 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1861AA7A27E7C08B00F6ED35 /* CameraViewController.swift */; };
 		1861AA7D27E7C69800F6ED35 /* AvatarWaving.png in Resources */ = {isa = PBXBuildFile; fileRef = 1861AA7C27E7C69800F6ED35 /* AvatarWaving.png */; };
+		1861AA7F27E7C89000F6ED35 /* grossmotoricon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1861AA7E27E7C89000F6ED35 /* grossmotoricon.jpeg */; };
 		18A466CC27B0282F00B43A23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A466CB27B0282F00B43A23 /* AppDelegate.swift */; };
 		18A466CE27B0282F00B43A23 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A466CD27B0282F00B43A23 /* SceneDelegate.swift */; };
 		18A466D027B0282F00B43A23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A466CF27B0282F00B43A23 /* ViewController.swift */; };
@@ -49,6 +50,7 @@
 		1861AA7827E7B88A00F6ED35 /* ForgottencodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgottencodeViewController.swift; sourceTree = "<group>"; };
 		1861AA7A27E7C08B00F6ED35 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		1861AA7C27E7C69800F6ED35 /* AvatarWaving.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AvatarWaving.png; path = ../../../Desktop/AvatarWaving.png; sourceTree = "<group>"; };
+		1861AA7E27E7C89000F6ED35 /* grossmotoricon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = grossmotoricon.jpeg; path = ../../../Downloads/grossmotoricon.jpeg; sourceTree = "<group>"; };
 		18A466C827B0282F00B43A23 /* GrossMotorGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrossMotorGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A466CB27B0282F00B43A23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18A466CD27B0282F00B43A23 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 		18A466CA27B0282F00B43A23 /* GrossMotorGame */ = {
 			isa = PBXGroup;
 			children = (
+				1861AA7E27E7C89000F6ED35 /* grossmotoricon.jpeg */,
 				1861AA7C27E7C69800F6ED35 /* AvatarWaving.png */,
 				1861AA7227E7B3D800F6ED35 /* Avatar_with_Instructions.mp4 */,
 				1861AA7627E7B77600F6ED35 /* ViewControllers */,
@@ -268,6 +271,7 @@
 				1861AA7D27E7C69800F6ED35 /* AvatarWaving.png in Resources */,
 				18A466D527B0283000B43A23 /* Assets.xcassets in Resources */,
 				18A466D327B0282F00B43A23 /* Main.storyboard in Resources */,
+				1861AA7F27E7C89000F6ED35 /* grossmotoricon.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
