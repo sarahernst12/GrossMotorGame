@@ -427,6 +427,12 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IP3-kW-Ur6">
                                 <rect key="frame" x="579" y="33" width="754" height="923"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="AvatarWaving.png" translatesAutoresizingMaskIntoConstraints="NO" id="QBj-Uq-lcw">
+                                        <rect key="frame" x="0.0" y="0.0" width="754" height="923"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
                                 <color key="backgroundColor" systemColor="separatorColor"/>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kkO-dc-ZtW" userLabel="number1">
@@ -480,10 +486,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ell-PM-ZQG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3016" y="9"/>
+            <point key="canvasLocation" x="3015.8125915080523" y="8.7890625"/>
         </scene>
     </scenes>
     <resources>
+        <image name="AvatarWaving.png" width="555" height="687"/>
         <image name="ipad.homebutton.landscape" catalog="system" width="128" height="93"/>
         <image name="star.fill" catalog="system" width="128" height="116"/>
         <systemColor name="opaqueSeparatorColor">
