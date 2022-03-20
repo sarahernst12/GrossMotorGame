@@ -3,6 +3,7 @@
 //  GrossMotorGame
 //
 //  Created by Rachel Cutlan on 3/20/22.
+//  This controller plays the video of the avatar
 //
 
 import UIKit

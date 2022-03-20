@@ -3,6 +3,7 @@
 //  GrossMotorGame
 //
 //  Created by Rachel Cutlan on 3/20/22.
+//  This controller will take input from the user and help them get a new code if they have forgotten theirs
 //
 
 import UIKit
