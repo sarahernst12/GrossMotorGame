@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1861AA7327E7B3D800F6ED35 /* Avatar_with_Instructions.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1861AA7227E7B3D800F6ED35 /* Avatar_with_Instructions.mp4 */; };
+		1861AA7527E7B75900F6ED35 /* AvatarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1861AA7427E7B75900F6ED35 /* AvatarViewController.swift */; };
+		1861AA7927E7B88A00F6ED35 /* ForgottencodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1861AA7827E7B88A00F6ED35 /* ForgottencodeViewController.swift */; };
 		18A466CC27B0282F00B43A23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A466CB27B0282F00B43A23 /* AppDelegate.swift */; };
 		18A466CE27B0282F00B43A23 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A466CD27B0282F00B43A23 /* SceneDelegate.swift */; };
 		18A466D027B0282F00B43A23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A466CF27B0282F00B43A23 /* ViewController.swift */; };
@@ -41,6 +43,8 @@
 
 /* Begin PBXFileReference section */
 		1861AA7227E7B3D800F6ED35 /* Avatar_with_Instructions.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Avatar_with_Instructions.mp4; path = ../../../Downloads/Avatar_with_Instructions.mp4; sourceTree = "<group>"; };
+		1861AA7427E7B75900F6ED35 /* AvatarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarViewController.swift; sourceTree = "<group>"; };
+		1861AA7827E7B88A00F6ED35 /* ForgottencodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgottencodeViewController.swift; sourceTree = "<group>"; };
 		18A466C827B0282F00B43A23 /* GrossMotorGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrossMotorGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A466CB27B0282F00B43A23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18A466CD27B0282F00B43A23 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +88,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1861AA7627E7B77600F6ED35 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		18A466BF27B0282F00B43A23 = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +118,7 @@
 		18A466CA27B0282F00B43A23 /* GrossMotorGame */ = {
 			isa = PBXGroup;
 			children = (
+				1861AA7627E7B77600F6ED35 /* ViewControllers */,
 				1861AA7227E7B3D800F6ED35 /* Avatar_with_Instructions.mp4 */,
 				18A466CB27B0282F00B43A23 /* AppDelegate.swift */,
 				18A466CD27B0282F00B43A23 /* SceneDelegate.swift */,
@@ -114,6 +126,8 @@
 				18A466D427B0283000B43A23 /* Assets.xcassets */,
 				18A466D627B0283000B43A23 /* LaunchScreen.storyboard */,
 				18A466D127B0282F00B43A23 /* Main.storyboard */,
+				1861AA7827E7B88A00F6ED35 /* ForgottencodeViewController.swift */,
+				1861AA7427E7B75900F6ED35 /* AvatarViewController.swift */,
 				18A466D927B0283000B43A23 /* Info.plist */,
 				18A466FB27B466B500B43A23 /* WelcomeStep1ViewControlViewController.swift */,
 				18A466FD27B466D400B43A23 /* WelcomeStep2ViewController.swift */,
@@ -273,8 +287,10 @@
 			files = (
 				18A466D027B0282F00B43A23 /* ViewController.swift in Sources */,
 				18A466FE27B466D400B43A23 /* WelcomeStep2ViewController.swift in Sources */,
+				1861AA7927E7B88A00F6ED35 /* ForgottencodeViewController.swift in Sources */,
 				18A4670027B466EB00B43A23 /* User.swift in Sources */,
 				18A466CC27B0282F00B43A23 /* AppDelegate.swift in Sources */,
+				1861AA7527E7B75900F6ED35 /* AvatarViewController.swift in Sources */,
 				18A466FC27B466B500B43A23 /* WelcomeStep1ViewControlViewController.swift in Sources */,
 				18A466CE27B0282F00B43A23 /* SceneDelegate.swift in Sources */,
 			);

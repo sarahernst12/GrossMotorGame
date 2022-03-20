@@ -141,10 +141,10 @@
             </objects>
             <point key="canvasLocation" x="925.91508052708627" y="47.4609375"/>
         </scene>
-        <!--Forgotten Code-->
+        <!--Forgottencode View Controller-->
         <scene sceneID="qfJ-7n-cgb">
             <objects>
-                <viewController id="1rH-yr-FDL" customClass="ForgottenCode" sceneMemberID="viewController">
+                <viewController id="1rH-yr-FDL" customClass="ForgottencodeViewController" customModule="GrossMotorGame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KNl-p3-cDg">
                         <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -336,7 +336,7 @@
         <!--Instructions 3 Scene-->
         <scene sceneID="EBD-i9-G7k">
             <objects>
-                <viewController title="Instructions 3 Scene" id="YSu-g7-0Mr" sceneMemberID="viewController">
+                <viewController title="Instructions 3 Scene" id="YSu-g7-0Mr" customClass="AvatarViewController" customModule="GrossMotorGame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KzK-gr-AAy">
                         <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
