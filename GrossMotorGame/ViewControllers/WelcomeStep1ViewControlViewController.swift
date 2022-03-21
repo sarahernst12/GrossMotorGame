@@ -17,6 +17,7 @@ class WelcomeStep1ViewControlViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        //self.view.backgroundColor = UIColor(patternImage: UIImageView(named: "Bunnybackground"))
         
         //initialize user model here
         self.user = User()

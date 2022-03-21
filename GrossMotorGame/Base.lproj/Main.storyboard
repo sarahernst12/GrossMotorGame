@@ -32,6 +32,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Bunnybackground.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="PdP-YQ-JUe">
+                                <rect key="frame" x="354" y="289" width="658" height="446"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GM4-jf-19f" userLabel="Submit Button">
                                 <rect key="frame" x="565.5" y="611" width="235" height="89.5"/>
                                 <size key="titleShadowOffset" width="10" height="10"/>
@@ -49,7 +52,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="ABCD1234" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FHx-Xh-FUZ" userLabel="Access Code">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="ABCD1234" textAlignment="center" minimumFontSize="17" background="Bunnybackground.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="FHx-Xh-FUZ" userLabel="Access Code">
                                 <rect key="frame" x="523.5" y="471" width="319" height="82"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" autocorrectionType="no" textContentType="one-time-code"/>
@@ -65,10 +68,6 @@
                                     <segue destination="1rH-yr-FDL" kind="show" id="TWf-tX-zGF"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="D6A59AF6-441E-4F52-9B07-E7179D3F870A.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="Brh-IE-2xG">
-                                <rect key="frame" x="-63" y="-106" width="1518" height="1236"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="eb7-Yc-cBC"/>
                         <color key="backgroundColor" systemColor="secondarySystemGroupedBackgroundColor"/>
@@ -77,9 +76,11 @@
                             <constraint firstItem="FHx-Xh-FUZ" firstAttribute="top" secondItem="T1h-Ez-yRT" secondAttribute="bottom" constant="109" id="32A-ZP-aO7"/>
                             <constraint firstItem="GM4-jf-19f" firstAttribute="centerX" secondItem="eb7-Yc-cBC" secondAttribute="centerX" id="4OR-dh-3se"/>
                             <constraint firstItem="vRH-Im-WN4" firstAttribute="centerX" secondItem="eb7-Yc-cBC" secondAttribute="centerX" id="Mge-ic-Hqx"/>
+                            <constraint firstItem="PdP-YQ-JUe" firstAttribute="centerY" secondItem="pKB-RV-rj9" secondAttribute="centerY" id="W9T-1I-CZf"/>
                             <constraint firstItem="eb7-Yc-cBC" firstAttribute="bottom" secondItem="vRH-Im-WN4" secondAttribute="bottom" constant="61" id="WXm-oT-7tM"/>
                             <constraint firstItem="T1h-Ez-yRT" firstAttribute="top" secondItem="eb7-Yc-cBC" secondAttribute="top" constant="225" id="Yav-x3-ko5"/>
                             <constraint firstItem="GM4-jf-19f" firstAttribute="top" secondItem="FHx-Xh-FUZ" secondAttribute="bottom" constant="58" id="cWx-2W-8kk"/>
+                            <constraint firstItem="PdP-YQ-JUe" firstAttribute="centerX" secondItem="pKB-RV-rj9" secondAttribute="centerX" id="dAb-M7-7lf"/>
                             <constraint firstItem="FHx-Xh-FUZ" firstAttribute="centerX" secondItem="eb7-Yc-cBC" secondAttribute="centerX" id="eNx-ll-kLP"/>
                             <constraint firstItem="T1h-Ez-yRT" firstAttribute="centerX" secondItem="eb7-Yc-cBC" secondAttribute="centerX" id="qpi-Kg-kQq"/>
                             <constraint firstItem="vRH-Im-WN4" firstAttribute="top" secondItem="GM4-jf-19f" secondAttribute="bottom" constant="143.5" id="sE6-qq-Vnl"/>
@@ -389,13 +390,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="star.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ODk-Ax-Hcq">
-                                <rect key="frame" x="913" y="51.5" width="84" height="117"/>
+                                <rect key="frame" x="913" y="51.5" width="84" height="17.5"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="star.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="CcS-pM-hD3">
-                                <rect key="frame" x="369" y="51.5" width="84" height="121"/>
+                                <rect key="frame" x="369" y="51.5" width="84" height="20"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7eS-3p-XEf">
-                                <rect key="frame" x="534" y="667" width="298" height="94"/>
+                                <rect key="frame" x="534" y="566" width="298" height="94"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="94" id="XyT-0F-k3n"/>
                                 </constraints>
@@ -508,7 +509,7 @@
     </scenes>
     <resources>
         <image name="AvatarWaving.png" width="555" height="687"/>
-        <image name="D6A59AF6-441E-4F52-9B07-E7179D3F870A.jpeg" width="658" height="445.5"/>
+        <image name="Bunnybackground.jpeg" width="658" height="445.5"/>
         <image name="grossmotoricon.jpeg" width="363.5" height="358.5"/>
         <image name="ipad.homebutton.landscape" catalog="system" width="128" height="93"/>
         <image name="star.fill" catalog="system" width="128" height="116"/>
