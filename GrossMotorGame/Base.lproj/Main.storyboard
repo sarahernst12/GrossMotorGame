@@ -301,7 +301,7 @@
                                 <constraints>
                                     <constraint firstAttribute="width" constant="36" id="qHO-Yn-G9e"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="60"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="60"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -311,12 +311,11 @@
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Step away from camera so your whole body is shown on the screen" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AQY-0h-uNr" userLabel="Stepaway">
                                 <rect key="frame" x="119" y="163" width="452" height="234"/>
-                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="234" id="5Y5-Yg-H4N"/>
                                     <constraint firstAttribute="width" constant="452" id="83P-h8-7JG"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="45"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="45"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -328,10 +327,11 @@
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="235" id="del-a2-vNP"/>
                                     <constraint firstAttribute="height" constant="94" id="yPE-fr-JmE"/>
                                 </constraints>
-                                <color key="tintColor" systemColor="systemGrayColor"/>
+                                <color key="tintColor" systemColor="systemYellowColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Next">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="39"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="tmE-zg-dcG" kind="show" id="CY8-av-1uM"/>
@@ -461,6 +461,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bunnybackground2.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="all-7X-bK0">
+                                <rect key="frame" x="0.0" y="0.0" width="1366" height="1004"/>
+                            </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IP3-kW-Ur6">
                                 <rect key="frame" x="579" y="33" width="754" height="923"/>
                                 <subviews>
@@ -485,6 +488,8 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="I Am Ready!">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="39"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" systemColor="systemYellowColor"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="YSu-g7-0Mr" kind="show" id="y50-4F-RN1"/>
@@ -505,6 +510,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <color key="tintColor" systemColor="systemCyanColor"/>
                         <constraints>
+                            <constraint firstItem="all-7X-bK0" firstAttribute="top" secondItem="caB-Ap-YWy" secondAttribute="top" id="14A-YI-CSz"/>
+                            <constraint firstItem="all-7X-bK0" firstAttribute="bottom" secondItem="1vi-mZ-tuC" secondAttribute="bottom" id="83V-8g-RQ1"/>
+                            <constraint firstItem="1vi-mZ-tuC" firstAttribute="trailing" secondItem="all-7X-bK0" secondAttribute="trailing" id="9Ql-3v-bSQ"/>
                             <constraint firstItem="Yhp-fj-Suy" firstAttribute="top" secondItem="1vi-mZ-tuC" secondAttribute="top" constant="68" id="Hbe-7g-9a7"/>
                             <constraint firstItem="IP3-kW-Ur6" firstAttribute="leading" secondItem="t1t-J4-IrB" secondAttribute="trailing" constant="95" id="Mf6-Uf-zHf"/>
                             <constraint firstItem="1vi-mZ-tuC" firstAttribute="trailing" secondItem="Yhp-fj-Suy" secondAttribute="trailing" constant="795" id="NrX-6y-Vhi"/>
@@ -515,6 +523,7 @@
                             <constraint firstItem="IP3-kW-Ur6" firstAttribute="top" secondItem="1vi-mZ-tuC" secondAttribute="top" constant="-41" id="auL-1Z-n2i"/>
                             <constraint firstItem="Yhp-fj-Suy" firstAttribute="leading" secondItem="kkO-dc-ZtW" secondAttribute="trailing" constant="41" id="cJh-io-FVb"/>
                             <constraint firstItem="1vi-mZ-tuC" firstAttribute="bottom" secondItem="IP3-kW-Ur6" secondAttribute="bottom" constant="48" id="fVT-Uc-VvE"/>
+                            <constraint firstItem="all-7X-bK0" firstAttribute="leading" secondItem="1vi-mZ-tuC" secondAttribute="leading" id="h5x-Ja-JfR"/>
                             <constraint firstItem="1vi-mZ-tuC" firstAttribute="bottom" secondItem="kkO-dc-ZtW" secondAttribute="bottom" constant="769" id="mDp-jB-KL5"/>
                             <constraint firstItem="1vi-mZ-tuC" firstAttribute="trailing" secondItem="IP3-kW-Ur6" secondAttribute="trailing" constant="33" id="z3n-1E-qtL"/>
                         </constraints>
@@ -523,7 +532,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ell-PM-ZQG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3015.8125915080523" y="8.7890625"/>
+            <point key="canvasLocation" x="3015.3733528550511" y="8.7890625"/>
         </scene>
     </scenes>
     <resources>
@@ -551,8 +560,8 @@
         <systemColor name="systemGray2Color">
             <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
-        <systemColor name="systemGrayColor">
-            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="tintColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
