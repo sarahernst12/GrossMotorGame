@@ -55,10 +55,10 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" autocorrectionType="no" textContentType="one-time-code"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" verticalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vRH-Im-WN4" customClass="ForgotCodeButtonLabel">
-                                <rect key="frame" x="454.5" y="844" width="457.5" height="99"/>
+                                <rect key="frame" x="449.5" y="844" width="467.5" height="99"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="FORGOT YOUR CODE?">
-                                    <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
+                                    <fontDescription key="titleFontDescription" name="AlNile-Bold" family="Al Nile" pointSize="40"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="1rH-yr-FDL" kind="show" id="TWf-tX-zGF"/>
@@ -67,6 +67,7 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="eb7-Yc-cBC"/>
                         <color key="backgroundColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                        <color key="tintColor" systemColor="systemCyanColor"/>
                         <constraints>
                             <constraint firstItem="FHx-Xh-FUZ" firstAttribute="top" secondItem="T1h-Ez-yRT" secondAttribute="bottom" constant="109" id="32A-ZP-aO7"/>
                             <constraint firstItem="GM4-jf-19f" firstAttribute="centerX" secondItem="eb7-Yc-cBC" secondAttribute="centerX" id="4OR-dh-3se"/>
@@ -117,7 +118,7 @@
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dpt-7t-2wf">
                                 <rect key="frame" x="516" y="837" width="335" height="69"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Continue to Play">
+                                <buttonConfiguration key="configuration" style="filled" title="Ready to Play!">
                                     <fontDescription key="titleFontDescription" name="AlNile-Bold" family="Al Nile" pointSize="40"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -127,6 +128,7 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Aok-Pe-pva"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="tintColor" systemColor="systemCyanColor"/>
                         <constraints>
                             <constraint firstItem="Aok-Pe-pva" firstAttribute="trailing" secondItem="zLV-HX-89j" secondAttribute="trailing" constant="413" id="6qs-1n-tBS"/>
                             <constraint firstItem="Aok-Pe-pva" firstAttribute="trailing" secondItem="Dpt-7t-2wf" secondAttribute="trailing" constant="515" id="8aA-2C-7qT"/>
@@ -183,6 +185,7 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Mol-Cl-baw"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="tintColor" systemColor="systemCyanColor"/>
                         <constraints>
                             <constraint firstItem="NZi-NB-7vV" firstAttribute="top" secondItem="NIO-q9-kqn" secondAttribute="bottom" constant="29" id="3l7-Ry-5Vb"/>
                             <constraint firstItem="Mol-Cl-baw" firstAttribute="trailing" secondItem="NIO-q9-kqn" secondAttribute="trailing" constant="268" id="Ffx-ZQ-NI5"/>
@@ -241,6 +244,7 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="PST-MU-jAU"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="tintColor" systemColor="systemCyanColor"/>
                         <constraints>
                             <constraint firstItem="lMq-fO-UCj" firstAttribute="leading" secondItem="PST-MU-jAU" secondAttribute="leading" constant="187" id="5Pw-ta-lER"/>
                             <constraint firstItem="t0H-1P-WUE" firstAttribute="leading" secondItem="lMq-fO-UCj" secondAttribute="trailing" constant="94" id="5jb-kj-UC3"/>
@@ -315,6 +319,7 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDz-75-il8"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="tintColor" systemColor="systemCyanColor"/>
                         <constraints>
                             <constraint firstItem="I9l-BK-8QX" firstAttribute="top" secondItem="vDz-75-il8" secondAttribute="top" constant="89" id="1q9-7V-vcv"/>
                             <constraint firstItem="kk1-4F-oVW" firstAttribute="top" secondItem="JyV-9m-WQM" secondAttribute="topMargin" constant="-50" id="4AW-eC-WvX"/>
@@ -397,6 +402,7 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="UNm-SL-Iao"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="tintColor" systemColor="systemCyanColor"/>
                         <constraints>
                             <constraint firstItem="Kr6-Y4-Vdk" firstAttribute="centerX" secondItem="ApF-ky-OXd" secondAttribute="centerX" id="0pt-Zd-W2u"/>
                             <constraint firstItem="wo2-W3-mtb" firstAttribute="leading" secondItem="CcS-pM-hD3" secondAttribute="trailing" constant="8" id="7XQ-Or-Yqr"/>
@@ -472,6 +478,7 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="1vi-mZ-tuC"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="tintColor" systemColor="systemCyanColor"/>
                         <constraints>
                             <constraint firstItem="Yhp-fj-Suy" firstAttribute="top" secondItem="1vi-mZ-tuC" secondAttribute="top" constant="68" id="Hbe-7g-9a7"/>
                             <constraint firstItem="IP3-kW-Ur6" firstAttribute="leading" secondItem="t1t-J4-IrB" secondAttribute="trailing" constant="95" id="Mf6-Uf-zHf"/>
@@ -510,6 +517,9 @@
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemCyanColor">
+            <color red="0.19607843137254902" green="0.67843137254901964" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGray2Color">
             <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
