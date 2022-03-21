@@ -32,8 +32,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Bunnybackground.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="PdP-YQ-JUe">
-                                <rect key="frame" x="354" y="289" width="658" height="446"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bunnybackground.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="IWs-Ri-aIY">
+                                <rect key="frame" x="0.0" y="74" width="1366" height="930"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GM4-jf-19f" userLabel="Submit Button">
                                 <rect key="frame" x="565.5" y="611" width="235" height="89.5"/>
@@ -75,13 +75,15 @@
                         <constraints>
                             <constraint firstItem="FHx-Xh-FUZ" firstAttribute="top" secondItem="T1h-Ez-yRT" secondAttribute="bottom" constant="109" id="32A-ZP-aO7"/>
                             <constraint firstItem="GM4-jf-19f" firstAttribute="centerX" secondItem="eb7-Yc-cBC" secondAttribute="centerX" id="4OR-dh-3se"/>
+                            <constraint firstItem="IWs-Ri-aIY" firstAttribute="leading" secondItem="eb7-Yc-cBC" secondAttribute="leading" id="DNp-uo-Jhr"/>
                             <constraint firstItem="vRH-Im-WN4" firstAttribute="centerX" secondItem="eb7-Yc-cBC" secondAttribute="centerX" id="Mge-ic-Hqx"/>
-                            <constraint firstItem="PdP-YQ-JUe" firstAttribute="centerY" secondItem="pKB-RV-rj9" secondAttribute="centerY" id="W9T-1I-CZf"/>
+                            <constraint firstItem="eb7-Yc-cBC" firstAttribute="trailing" secondItem="IWs-Ri-aIY" secondAttribute="trailing" id="NaO-a0-kVV"/>
+                            <constraint firstItem="IWs-Ri-aIY" firstAttribute="top" secondItem="eb7-Yc-cBC" secondAttribute="top" id="VN7-6h-OBm"/>
                             <constraint firstItem="eb7-Yc-cBC" firstAttribute="bottom" secondItem="vRH-Im-WN4" secondAttribute="bottom" constant="61" id="WXm-oT-7tM"/>
                             <constraint firstItem="T1h-Ez-yRT" firstAttribute="top" secondItem="eb7-Yc-cBC" secondAttribute="top" constant="225" id="Yav-x3-ko5"/>
                             <constraint firstItem="GM4-jf-19f" firstAttribute="top" secondItem="FHx-Xh-FUZ" secondAttribute="bottom" constant="58" id="cWx-2W-8kk"/>
-                            <constraint firstItem="PdP-YQ-JUe" firstAttribute="centerX" secondItem="pKB-RV-rj9" secondAttribute="centerX" id="dAb-M7-7lf"/>
                             <constraint firstItem="FHx-Xh-FUZ" firstAttribute="centerX" secondItem="eb7-Yc-cBC" secondAttribute="centerX" id="eNx-ll-kLP"/>
+                            <constraint firstItem="eb7-Yc-cBC" firstAttribute="bottom" secondItem="IWs-Ri-aIY" secondAttribute="bottom" id="nSs-PW-H9i"/>
                             <constraint firstItem="T1h-Ez-yRT" firstAttribute="centerX" secondItem="eb7-Yc-cBC" secondAttribute="centerX" id="qpi-Kg-kQq"/>
                             <constraint firstItem="vRH-Im-WN4" firstAttribute="top" secondItem="GM4-jf-19f" secondAttribute="bottom" constant="143.5" id="sE6-qq-Vnl"/>
                         </constraints>
@@ -162,6 +164,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bunnybackground.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="aEW-33-oaq">
+                                <rect key="frame" x="0.0" y="0.0" width="1366" height="1004"/>
+                            </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="NZi-NB-7vV">
                                 <rect key="frame" x="315" y="477" width="736" height="82"/>
                                 <color key="textColor" systemColor="tintColor"/>
@@ -193,10 +198,14 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <color key="tintColor" systemColor="systemCyanColor"/>
                         <constraints>
+                            <constraint firstItem="Mol-Cl-baw" firstAttribute="bottom" secondItem="aEW-33-oaq" secondAttribute="bottom" id="2pW-bQ-QHx"/>
                             <constraint firstItem="NZi-NB-7vV" firstAttribute="top" secondItem="NIO-q9-kqn" secondAttribute="bottom" constant="29" id="3l7-Ry-5Vb"/>
+                            <constraint firstItem="aEW-33-oaq" firstAttribute="leading" secondItem="Mol-Cl-baw" secondAttribute="leading" id="A7L-ot-xPV"/>
+                            <constraint firstItem="Mol-Cl-baw" firstAttribute="trailing" secondItem="aEW-33-oaq" secondAttribute="trailing" id="Aoo-pK-Kx4"/>
                             <constraint firstItem="Mol-Cl-baw" firstAttribute="trailing" secondItem="NIO-q9-kqn" secondAttribute="trailing" constant="268" id="Ffx-ZQ-NI5"/>
                             <constraint firstItem="NIO-q9-kqn" firstAttribute="leading" secondItem="Mol-Cl-baw" secondAttribute="leading" constant="269" id="Hmm-eh-9E4"/>
                             <constraint firstItem="Mol-Cl-baw" firstAttribute="trailing" secondItem="NZi-NB-7vV" secondAttribute="trailing" constant="315" id="JPn-ar-BA2"/>
+                            <constraint firstItem="aEW-33-oaq" firstAttribute="top" secondItem="KNl-p3-cDg" secondAttribute="top" id="Nmn-Ox-43F"/>
                             <constraint firstItem="Mol-Cl-baw" firstAttribute="trailing" secondItem="6Ny-rQ-Z5E" secondAttribute="trailing" constant="442" id="PGG-pI-nt7"/>
                             <constraint firstItem="Mol-Cl-baw" firstAttribute="trailing" secondItem="cTt-Oi-Gve" secondAttribute="trailing" constant="559" id="T8S-tr-xgs"/>
                             <constraint firstItem="cTt-Oi-Gve" firstAttribute="top" secondItem="NZi-NB-7vV" secondAttribute="bottom" constant="37" id="VVh-km-93H"/>
@@ -283,8 +292,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bunnybackground2.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="gfi-yI-cwO">
+                                <rect key="frame" x="0.0" y="0.0" width="1366" height="1004"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I9l-BK-8QX" userLabel="number1">
                                 <rect key="frame" x="42" y="163" width="36" height="72"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="36" id="qHO-Yn-G9e"/>
                                 </constraints>
@@ -298,6 +311,7 @@
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Step away from camera so your whole body is shown on the screen" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AQY-0h-uNr" userLabel="Stepaway">
                                 <rect key="frame" x="119" y="163" width="452" height="234"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="234" id="5Y5-Yg-H4N"/>
                                     <constraint firstAttribute="width" constant="452" id="83P-h8-7JG"/>
@@ -314,6 +328,7 @@
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="235" id="del-a2-vNP"/>
                                     <constraint firstAttribute="height" constant="94" id="yPE-fr-JmE"/>
                                 </constraints>
+                                <color key="tintColor" systemColor="systemGrayColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Next">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="39"/>
@@ -338,7 +353,11 @@
                             <constraint firstItem="vDz-75-il8" firstAttribute="trailing" secondItem="kk1-4F-oVW" secondAttribute="trailing" constant="32" id="Q3e-Kv-LiG"/>
                             <constraint firstItem="AQY-0h-uNr" firstAttribute="top" secondItem="I9l-BK-8QX" secondAttribute="top" id="RoY-pg-DD8"/>
                             <constraint firstItem="08m-5K-peW" firstAttribute="leading" secondItem="vDz-75-il8" secondAttribute="leading" constant="241" id="VPH-ja-YYg"/>
+                            <constraint firstItem="gfi-yI-cwO" firstAttribute="top" secondItem="JyV-9m-WQM" secondAttribute="top" id="YzB-aU-59H"/>
+                            <constraint firstItem="gfi-yI-cwO" firstAttribute="leading" secondItem="vDz-75-il8" secondAttribute="leading" id="a1P-Vi-nOx"/>
                             <constraint firstItem="vDz-75-il8" firstAttribute="bottom" secondItem="kk1-4F-oVW" secondAttribute="bottom" constant="48" id="b5X-7n-QQo"/>
+                            <constraint firstItem="vDz-75-il8" firstAttribute="trailing" secondItem="gfi-yI-cwO" secondAttribute="trailing" id="vbP-NQ-nmm"/>
+                            <constraint firstItem="vDz-75-il8" firstAttribute="bottom" secondItem="gfi-yI-cwO" secondAttribute="bottom" id="wtX-Ij-2xl"/>
                             <constraint firstItem="kk1-4F-oVW" firstAttribute="leading" secondItem="AQY-0h-uNr" secondAttribute="trailing" constant="35" id="xFx-s2-I7t"/>
                             <constraint firstItem="08m-5K-peW" firstAttribute="top" secondItem="AQY-0h-uNr" secondAttribute="bottom" constant="224" id="ypD-Ce-s4l"/>
                         </constraints>
@@ -347,7 +366,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UTl-fk-iIU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2328" y="32"/>
+            <point key="canvasLocation" x="2327.9648609077599" y="31.640624999999996"/>
         </scene>
         <!--Instructions 3 Scene-->
         <scene sceneID="EBD-i9-G7k">
@@ -390,13 +409,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="star.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ODk-Ax-Hcq">
-                                <rect key="frame" x="913" y="51.5" width="84" height="17.5"/>
+                                <rect key="frame" x="913" y="51.5" width="84" height="117"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="star.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="CcS-pM-hD3">
-                                <rect key="frame" x="369" y="51.5" width="84" height="20"/>
+                                <rect key="frame" x="369" y="51.5" width="84" height="121"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7eS-3p-XEf">
-                                <rect key="frame" x="534" y="566" width="298" height="94"/>
+                                <rect key="frame" x="534" y="667" width="298" height="94"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="94" id="XyT-0F-k3n"/>
                                 </constraints>
@@ -510,6 +529,7 @@
     <resources>
         <image name="AvatarWaving.png" width="555" height="687"/>
         <image name="Bunnybackground.jpeg" width="658" height="445.5"/>
+        <image name="Bunnybackground2.jpeg" width="610.5" height="412.5"/>
         <image name="grossmotoricon.jpeg" width="363.5" height="358.5"/>
         <image name="ipad.homebutton.landscape" catalog="system" width="128" height="93"/>
         <image name="star.fill" catalog="system" width="128" height="116"/>
@@ -530,6 +550,9 @@
         </systemColor>
         <systemColor name="systemGray2Color">
             <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="tintColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

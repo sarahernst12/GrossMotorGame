@@ -17,11 +17,26 @@ class WelcomeStep1ViewControlViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //self.view.backgroundColor = UIColor(patternImage: UIImageView(named: "Bunnybackground"))
+        
+      /*  func assignbackground() {
+            let background = UIImage(named: "Bunnybackground.jpeg")
+            
+            var imageView : UIImageView!
+            imageView = UIImageView(frame: view.bounds)
+            imageView.contentMode = UIView.ContentMode.scaleAspectFill
+            imageView.clipsToBounds = true
+            imageView.image = background
+            imageView.center = view.center
+            view.addSubview(imageView)
+            self.view.sendSubviewToBack(imageView)
+        } */
+        
         
         //initialize user model here
         self.user = User()
     }
+    
+
     
     //to catch the segue in action - use prepare function that's included in all subclasses of UIViewController
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
