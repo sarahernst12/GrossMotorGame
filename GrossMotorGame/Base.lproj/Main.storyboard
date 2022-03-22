@@ -409,13 +409,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="star.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ODk-Ax-Hcq">
-                                <rect key="frame" x="913" y="51.5" width="84" height="117"/>
+                                <rect key="frame" x="913" y="51.5" width="84" height="17.5"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="star.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="CcS-pM-hD3">
-                                <rect key="frame" x="369" y="51.5" width="84" height="121"/>
+                                <rect key="frame" x="369" y="51.5" width="84" height="20"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7eS-3p-XEf">
-                                <rect key="frame" x="534" y="667" width="298" height="94"/>
+                                <rect key="frame" x="534" y="566" width="298" height="94"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="94" id="XyT-0F-k3n"/>
                                 </constraints>

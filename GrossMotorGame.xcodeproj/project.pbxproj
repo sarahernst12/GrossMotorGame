@@ -15,6 +15,7 @@
 		1861AA7F27E7C89000F6ED35 /* grossmotoricon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1861AA7E27E7C89000F6ED35 /* grossmotoricon.jpeg */; };
 		1861AA8327E8B20D00F6ED35 /* Bunnybackground.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1861AA8227E8B20D00F6ED35 /* Bunnybackground.jpeg */; };
 		1861AA8527E8C10D00F6ED35 /* Bunnybackground2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1861AA8427E8C10D00F6ED35 /* Bunnybackground2.jpeg */; };
+		1861AA8727E9601100F6ED35 /* Bunnycongrats.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1861AA8627E9601100F6ED35 /* Bunnycongrats.jpeg */; };
 		18A466CC27B0282F00B43A23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A466CB27B0282F00B43A23 /* AppDelegate.swift */; };
 		18A466CE27B0282F00B43A23 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A466CD27B0282F00B43A23 /* SceneDelegate.swift */; };
 		18A466D027B0282F00B43A23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A466CF27B0282F00B43A23 /* ViewController.swift */; };
@@ -55,6 +56,7 @@
 		1861AA7E27E7C89000F6ED35 /* grossmotoricon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = grossmotoricon.jpeg; path = ../../../Downloads/grossmotoricon.jpeg; sourceTree = "<group>"; };
 		1861AA8227E8B20D00F6ED35 /* Bunnybackground.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Bunnybackground.jpeg; path = ../../Bunnybackground.jpeg; sourceTree = "<group>"; };
 		1861AA8427E8C10D00F6ED35 /* Bunnybackground2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Bunnybackground2.jpeg; path = ../../Bunnybackground2.jpeg; sourceTree = "<group>"; };
+		1861AA8627E9601100F6ED35 /* Bunnycongrats.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Bunnycongrats.jpeg; path = ../../Bunnycongrats.jpeg; sourceTree = "<group>"; };
 		18A466C827B0282F00B43A23 /* GrossMotorGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrossMotorGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A466CB27B0282F00B43A23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18A466CD27B0282F00B43A23 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 			children = (
 				1861AA8227E8B20D00F6ED35 /* Bunnybackground.jpeg */,
 				1861AA8427E8C10D00F6ED35 /* Bunnybackground2.jpeg */,
+				1861AA8627E9601100F6ED35 /* Bunnycongrats.jpeg */,
 				1861AA7E27E7C89000F6ED35 /* grossmotoricon.jpeg */,
 				1861AA7C27E7C69800F6ED35 /* AvatarWaving.png */,
 				1861AA7227E7B3D800F6ED35 /* Avatar_with_Instructions.mp4 */,
@@ -275,6 +278,7 @@
 				18A466D827B0283000B43A23 /* LaunchScreen.storyboard in Resources */,
 				1861AA7327E7B3D800F6ED35 /* Avatar_with_Instructions.mp4 in Resources */,
 				1861AA7D27E7C69800F6ED35 /* AvatarWaving.png in Resources */,
+				1861AA8727E9601100F6ED35 /* Bunnycongrats.jpeg in Resources */,
 				18A466D527B0283000B43A23 /* Assets.xcassets in Resources */,
 				1861AA8327E8B20D00F6ED35 /* Bunnybackground.jpeg in Resources */,
 				18A466D327B0282F00B43A23 /* Main.storyboard in Resources */,
