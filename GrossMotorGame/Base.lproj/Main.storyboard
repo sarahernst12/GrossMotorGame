@@ -107,47 +107,48 @@
                         <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Welcome user, XXXX" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zFL-UQ-uRB" userLabel="Welcome User Code Label">
-                                <rect key="frame" x="408.5" y="115" width="549" height="72"/>
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="60"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zLV-HX-89j">
-                                <rect key="frame" x="413" y="341" width="540" height="358.5"/>
-                                <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" ambiguous="YES" image="grossmotoricon.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="yso-nz-5Lm">
-                                        <rect key="frame" x="0.0" y="0.0" width="540" height="358.5"/>
-                                    </imageView>
-                                </subviews>
-                                <color key="backgroundColor" systemColor="systemGray2Color"/>
-                                <color key="tintColor" systemColor="opaqueSeparatorColor"/>
-                            </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dpt-7t-2wf">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bunnybackground.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="8t1-bA-SkH">
+                                <rect key="frame" x="0.0" y="0.0" width="1366" height="1004"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dpt-7t-2wf">
                                 <rect key="frame" x="516" y="837" width="335" height="69"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Ready to Play!">
                                     <fontDescription key="titleFontDescription" name="AlNile-Bold" family="Al Nile" pointSize="40"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" systemColor="systemYellowColor"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="z9u-0F-4oT" kind="show" id="avb-2K-3Nz"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Ti-Tk-CPv" userLabel="Welcome User Code Label">
+                                <rect key="frame" x="169" y="74" width="1079" height="772"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.46247874150000001" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="772" id="b7q-IT-6qP"/>
+                                    <constraint firstAttribute="width" constant="1079" id="nLt-u4-hhG"/>
+                                </constraints>
+                                <string key="text">Hello parents and guardians, thank you so much for allowing your child to participate in this study. Shortly, they will perform a task that will gather video and audio data as they follow along with an avatar. Please allow your child to perform these movements without your help-it is important for the clinician to see what they can do. Thank you for your participation! </string>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <color key="highlightedColor" red="1" green="1" blue="1" alpha="0.46247874150000001" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="shadowColor" systemColor="tintColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Aok-Pe-pva"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <color key="tintColor" systemColor="systemCyanColor"/>
                         <constraints>
-                            <constraint firstItem="Aok-Pe-pva" firstAttribute="trailing" secondItem="zLV-HX-89j" secondAttribute="trailing" constant="413" id="6qs-1n-tBS"/>
+                            <constraint firstItem="8t1-bA-SkH" firstAttribute="top" secondItem="A3Y-Ix-9fA" secondAttribute="top" id="72M-Tu-aeN"/>
+                            <constraint firstItem="8t1-bA-SkH" firstAttribute="trailing" secondItem="Aok-Pe-pva" secondAttribute="trailing" id="7g8-c2-dZw"/>
                             <constraint firstItem="Aok-Pe-pva" firstAttribute="trailing" secondItem="Dpt-7t-2wf" secondAttribute="trailing" constant="515" id="8aA-2C-7qT"/>
-                            <constraint firstItem="zFL-UQ-uRB" firstAttribute="leading" secondItem="Aok-Pe-pva" secondAttribute="leading" constant="408.5" id="AyH-oI-v1T"/>
+                            <constraint firstItem="3Ti-Tk-CPv" firstAttribute="centerX" secondItem="Dpt-7t-2wf" secondAttribute="centerX" constant="25" id="9m3-UL-fbV"/>
                             <constraint firstItem="Aok-Pe-pva" firstAttribute="bottom" secondItem="Dpt-7t-2wf" secondAttribute="bottom" constant="98" id="Duq-Wd-mbU"/>
-                            <constraint firstItem="Aok-Pe-pva" firstAttribute="trailing" secondItem="zFL-UQ-uRB" secondAttribute="trailing" constant="408.5" id="PZk-jd-ysO"/>
-                            <constraint firstItem="Dpt-7t-2wf" firstAttribute="top" secondItem="zLV-HX-89j" secondAttribute="bottom" constant="153" id="QVz-y3-JYL"/>
-                            <constraint firstItem="zFL-UQ-uRB" firstAttribute="top" secondItem="Aok-Pe-pva" secondAttribute="top" constant="41" id="Sle-ma-1fY"/>
+                            <constraint firstItem="8t1-bA-SkH" firstAttribute="bottom" secondItem="Aok-Pe-pva" secondAttribute="bottom" id="bOq-7C-cLu"/>
                             <constraint firstItem="Dpt-7t-2wf" firstAttribute="leading" secondItem="Aok-Pe-pva" secondAttribute="leading" constant="516" id="gpO-f4-E2d"/>
-                            <constraint firstItem="zLV-HX-89j" firstAttribute="leading" secondItem="Aok-Pe-pva" secondAttribute="leading" constant="413" id="pcO-O8-RZ3"/>
-                            <constraint firstItem="zLV-HX-89j" firstAttribute="top" secondItem="zFL-UQ-uRB" secondAttribute="bottom" constant="154" id="w8u-82-bkh"/>
+                            <constraint firstItem="3Ti-Tk-CPv" firstAttribute="top" secondItem="A3Y-Ix-9fA" secondAttribute="top" constant="74" id="jC4-N6-pUI"/>
+                            <constraint firstItem="8t1-bA-SkH" firstAttribute="leading" secondItem="Aok-Pe-pva" secondAttribute="leading" id="pNB-0v-Jqv"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Slp-nb-o3w"/>
@@ -391,9 +392,9 @@
                         <viewLayoutGuide key="safeArea" id="Jnl-fB-1uk"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="nP8-f8-AZD"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ksP-7L-VHF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <navigationItem id="nP8-f8-AZD"/>
             </objects>
             <point key="canvasLocation" x="3745.827232796486" y="-36.328125"/>
         </scene>
@@ -406,7 +407,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bunnycongrats.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="dzc-sW-ZNH">
-                                <rect key="frame" x="0.0" y="24" width="1366" height="879"/>
+                                <rect key="frame" x="0.0" y="24" width="1366" height="980"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Great Job XXXX!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wo2-W3-mtb" userLabel="Welcome User Code Label">
                                 <rect key="frame" x="461" y="57" width="444" height="72"/>
@@ -427,13 +428,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="star.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ODk-Ax-Hcq">
-                                <rect key="frame" x="913" y="51.5" width="84" height="17.5"/>
+                                <rect key="frame" x="913" y="51.5" width="84" height="117"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="star.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="CcS-pM-hD3">
-                                <rect key="frame" x="369" y="51.5" width="84" height="20"/>
+                                <rect key="frame" x="369" y="51.5" width="84" height="121"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7eS-3p-XEf">
-                                <rect key="frame" x="534" y="566" width="298" height="94"/>
+                                <rect key="frame" x="534" y="667" width="298" height="94"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="94" id="XyT-0F-k3n"/>
                                 </constraints>
@@ -567,14 +568,10 @@
         <image name="Bunnybackground.jpeg" width="658" height="445.5"/>
         <image name="Bunnybackground2.jpeg" width="610.5" height="412.5"/>
         <image name="Bunnycongrats.jpeg" width="550.5" height="372"/>
-        <image name="grossmotoricon.jpeg" width="363.5" height="358.5"/>
         <image name="ipad.homebutton.landscape" catalog="system" width="128" height="93"/>
         <image name="star.fill" catalog="system" width="128" height="116"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="opaqueSeparatorColor">
-            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="secondarySystemGroupedBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -587,9 +584,6 @@
         </systemColor>
         <systemColor name="systemCyanColor">
             <color red="0.19607843137254902" green="0.67843137254901964" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemGray2Color">
-            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
