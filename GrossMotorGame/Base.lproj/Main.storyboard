@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20036.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vSu-sn-GbS">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vSu-sn-GbS">
     <device id="ipad12_9rounded" orientation="landscape" layout="fullscreen" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20018.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -114,7 +114,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="1366" height="1004"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dpt-7t-2wf">
-                                <rect key="frame" x="516" y="837" width="335" height="69"/>
+                                <rect key="frame" x="560" y="837" width="291" height="69"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Ready to Play!">
                                     <fontDescription key="titleFontDescription" name="AlNile-Bold" family="Al Nile" pointSize="40"/>
@@ -126,7 +126,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Ti-Tk-CPv" userLabel="Welcome User Code Label">
-                                <rect key="frame" x="169" y="74" width="1079" height="772"/>
+                                <rect key="frame" x="191" y="74" width="1079" height="772"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.46247874150000001" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="772" id="b7q-IT-6qP"/>
@@ -149,7 +149,6 @@
                             <constraint firstItem="3Ti-Tk-CPv" firstAttribute="centerX" secondItem="Dpt-7t-2wf" secondAttribute="centerX" constant="25" id="9m3-UL-fbV"/>
                             <constraint firstItem="Aok-Pe-pva" firstAttribute="bottom" secondItem="Dpt-7t-2wf" secondAttribute="bottom" constant="98" id="Duq-Wd-mbU"/>
                             <constraint firstItem="8t1-bA-SkH" firstAttribute="bottom" secondItem="Aok-Pe-pva" secondAttribute="bottom" id="bOq-7C-cLu"/>
-                            <constraint firstItem="Dpt-7t-2wf" firstAttribute="leading" secondItem="Aok-Pe-pva" secondAttribute="leading" constant="516" id="gpO-f4-E2d"/>
                             <constraint firstItem="3Ti-Tk-CPv" firstAttribute="top" secondItem="A3Y-Ix-9fA" secondAttribute="top" constant="74" id="jC4-N6-pUI"/>
                             <constraint firstItem="8t1-bA-SkH" firstAttribute="leading" secondItem="Aok-Pe-pva" secondAttribute="leading" id="pNB-0v-Jqv"/>
                         </constraints>
@@ -412,7 +411,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bunnycongrats.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="dzc-sW-ZNH">
-                                <rect key="frame" x="0.0" y="24" width="1366" height="879"/>
+                                <rect key="frame" x="0.0" y="24" width="1366" height="980"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Great Job!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wo2-W3-mtb" userLabel="Welcome User Code Label">
                                 <rect key="frame" x="546.5" y="57" width="273.5" height="72"/>
@@ -433,13 +432,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="star.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ODk-Ax-Hcq">
-                                <rect key="frame" x="828" y="51.5" width="169" height="17.5"/>
+                                <rect key="frame" x="828" y="51.5" width="169" height="118.5"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="star.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="CcS-pM-hD3">
-                                <rect key="frame" x="369" y="51.5" width="169.5" height="20"/>
+                                <rect key="frame" x="369" y="51.5" width="169.5" height="121"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7eS-3p-XEf">
-                                <rect key="frame" x="534" y="566" width="298" height="94"/>
+                                <rect key="frame" x="534" y="667" width="298" height="94"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="94" id="XyT-0F-k3n"/>
                                 </constraints>
