@@ -19,10 +19,10 @@ class WelcomeStep2ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let backgroundImage = UIImageView(frame:UIScreen.main.bounds)
-        backgroundImage.image = UIImage(named: "Bunnybackground2")
-        backgroundImage.contentMode = UIView.ContentMode.scaleAspectFill
-        self.view.insertSubview(backgroundImage, at: 0)
+        //let backgroundImage = UIImageView(frame:UIScreen.main.bounds)
+        //backgroundImage.image = UIImage(named: "Bunnybackground2")
+        //backgroundImage.contentMode = UIView.ContentMode.scaleAspectFill
+        //self.view.insertSubview(backgroundImage, at: 0)
         //self.viewbackgroundColor = UIColor(patternImage: UIImage(named: "Bunnybackground2.png"))
         // Do any additional setup after loading the view.
 //        self.beginGameFieldLabel.text = "Thank you user: \(user!.accessCode!). The following games //are available for your play."

@@ -9,7 +9,7 @@
 import UIKit
 import AVFoundation
 
-class CameraViewController: UIViewController /*, UINavigationControllerDelegate, UIImagePickerController */{
+class CameraViewController: UIViewController, UINavigationControllerDelegate, UIImagePickerControllerDelegate {
 
     //Capture Session
     // Photo Output (Don't need?)
@@ -20,6 +20,14 @@ class CameraViewController: UIViewController /*, UINavigationControllerDelegate,
         
         //view.backgroundColor = .black
         
+        //opening the camera on device
+        //UIImagePickerController.isSourceTypeAvailable(.camera){
+        //    var imagePicker = UIImagePickerController()
+        //    imagePicker.delegate = self
+        //    imagePicker.sourceType = .camera;
+        //    imagePicker.allowsEditing = false
+        //    self.presentingViewController(imagePicker, animated: true, completion: nil)
+        //}
         
         //var controller = UIImagePickerController()
         //let videoFileName = "/video.mp4"
