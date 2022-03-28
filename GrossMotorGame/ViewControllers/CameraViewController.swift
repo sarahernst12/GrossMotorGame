@@ -15,11 +15,23 @@ class CameraViewController: UIViewController, UINavigationControllerDelegate, UI
     // Photo Output (Don't need?)
     // video preview!!
     
+    var audioPlayer = AVAudioPlayer()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         let value = UIInterfaceOrientation.landscapeRight.rawValue
             UIDevice.current.setValue(value, forKey: "orientation")
+        
+        let sound = Bundle.main.path(forResource: "Step_Away", ofType: "mp3")
+        
+        do {
+            
+            audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: sound! ))
+        }
+        catch{
+            print(error)
+        }
         
         //view.backgroundColor = .black
         

@@ -16,6 +16,9 @@
 		1861AA8D27F1F59200F6ED35 /* Bunnycongrats.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1861AA8C27F1F59200F6ED35 /* Bunnycongrats.jpeg */; };
 		1861AA8F27F1F5A300F6ED35 /* AvatarWaving.png in Resources */ = {isa = PBXBuildFile; fileRef = 1861AA8E27F1F5A300F6ED35 /* AvatarWaving.png */; };
 		1861AA9127F1F5AD00F6ED35 /* grossmotoricon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1861AA9027F1F5AD00F6ED35 /* grossmotoricon.jpeg */; };
+		1861AA9327F1F82300F6ED35 /* Step_Away.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1861AA9227F1F82300F6ED35 /* Step_Away.mp3 */; };
+		1861AA9527F1F98000F6ED35 /* Horizontal_Device.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1861AA9427F1F98000F6ED35 /* Horizontal_Device.mp3 */; };
+		1861AA9727F1F98800F6ED35 /* Follow_Bunny.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1861AA9627F1F98800F6ED35 /* Follow_Bunny.mp3 */; };
 		18A466CC27B0282F00B43A23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A466CB27B0282F00B43A23 /* AppDelegate.swift */; };
 		18A466CE27B0282F00B43A23 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A466CD27B0282F00B43A23 /* SceneDelegate.swift */; };
 		18A466D027B0282F00B43A23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A466CF27B0282F00B43A23 /* ViewController.swift */; };
@@ -57,6 +60,9 @@
 		1861AA8C27F1F59200F6ED35 /* Bunnycongrats.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Bunnycongrats.jpeg; path = ../../Bunnycongrats.jpeg; sourceTree = "<group>"; };
 		1861AA8E27F1F5A300F6ED35 /* AvatarWaving.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AvatarWaving.png; path = ../../../Desktop/AvatarWaving.png; sourceTree = "<group>"; };
 		1861AA9027F1F5AD00F6ED35 /* grossmotoricon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = grossmotoricon.jpeg; path = ../../../Downloads/grossmotoricon.jpeg; sourceTree = "<group>"; };
+		1861AA9227F1F82300F6ED35 /* Step_Away.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Step_Away.mp3; path = ../../Step_Away.mp3; sourceTree = "<group>"; };
+		1861AA9427F1F98000F6ED35 /* Horizontal_Device.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Horizontal_Device.mp3; path = ../../Horizontal_Device.mp3; sourceTree = "<group>"; };
+		1861AA9627F1F98800F6ED35 /* Follow_Bunny.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Follow_Bunny.mp3; path = ../../Follow_Bunny.mp3; sourceTree = "<group>"; };
 		18A466C827B0282F00B43A23 /* GrossMotorGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrossMotorGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A466CB27B0282F00B43A23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18A466CD27B0282F00B43A23 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -140,6 +146,9 @@
 				1861AA9027F1F5AD00F6ED35 /* grossmotoricon.jpeg */,
 				1861AA8C27F1F59200F6ED35 /* Bunnycongrats.jpeg */,
 				1861AA8A27F1F58B00F6ED35 /* Bunnybackground2.jpeg */,
+				1861AA9427F1F98000F6ED35 /* Horizontal_Device.mp3 */,
+				1861AA9627F1F98800F6ED35 /* Follow_Bunny.mp3 */,
+				1861AA9227F1F82300F6ED35 /* Step_Away.mp3 */,
 				1861AA7227E7B3D800F6ED35 /* Avatar_with_Instructions.mp4 */,
 				1861AA7627E7B77600F6ED35 /* ViewControllers */,
 				18A466CB27B0282F00B43A23 /* AppDelegate.swift */,
@@ -275,6 +284,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1861AA9727F1F98800F6ED35 /* Follow_Bunny.mp3 in Resources */,
 				18A466D827B0283000B43A23 /* LaunchScreen.storyboard in Resources */,
 				1861AA7327E7B3D800F6ED35 /* Avatar_with_Instructions.mp4 in Resources */,
 				1861AA8B27F1F58B00F6ED35 /* Bunnybackground2.jpeg in Resources */,
@@ -283,6 +293,8 @@
 				1861AA9127F1F5AD00F6ED35 /* grossmotoricon.jpeg in Resources */,
 				18A466D527B0283000B43A23 /* Assets.xcassets in Resources */,
 				1861AA8927F1F57A00F6ED35 /* Bunnybackground.jpeg in Resources */,
+				1861AA9327F1F82300F6ED35 /* Step_Away.mp3 in Resources */,
+				1861AA9527F1F98000F6ED35 /* Horizontal_Device.mp3 in Resources */,
 				18A466D327B0282F00B43A23 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
