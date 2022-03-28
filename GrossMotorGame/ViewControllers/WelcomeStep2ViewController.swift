@@ -19,6 +19,9 @@ class WelcomeStep2ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let value = UIInterfaceOrientation.landscapeRight.rawValue
+            UIDevice.current.setValue(value, forKey: "orientation")
+        
         //let backgroundImage = UIImageView(frame:UIScreen.main.bounds)
         //backgroundImage.image = UIImage(named: "Bunnybackground2")
         //backgroundImage.contentMode = UIView.ContentMode.scaleAspectFill
@@ -28,7 +31,14 @@ class WelcomeStep2ViewController: UIViewController {
 //        self.beginGameFieldLabel.text = "Thank you user: \(user!.accessCode!). The following games //are available for your play."
     }
     
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return .landscape
+    }
 
+    override var shouldAutorotate: Bool {
+        return true
+    }
+    
     /*
     // MARK: - Navigation
 

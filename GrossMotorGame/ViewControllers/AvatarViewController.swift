@@ -14,8 +14,19 @@ class AvatarViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let value = UIInterfaceOrientation.landscapeRight.rawValue
+            UIDevice.current.setValue(value, forKey: "orientation")
 
         // Do any additional setup after loading the view.
+    }
+    
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return .landscape
+    }
+
+    override var shouldAutorotate: Bool {
+        return true
     }
     
     override func viewDidAppear(_ animated: Bool) {

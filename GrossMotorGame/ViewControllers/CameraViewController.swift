@@ -18,6 +18,9 @@ class CameraViewController: UIViewController, UINavigationControllerDelegate, UI
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let value = UIInterfaceOrientation.landscapeRight.rawValue
+            UIDevice.current.setValue(value, forKey: "orientation")
+        
         //view.backgroundColor = .black
         
         //opening the camera on device
@@ -33,6 +36,14 @@ class CameraViewController: UIViewController, UINavigationControllerDelegate, UI
         //let videoFileName = "/video.mp4"
 
         // Do any additional setup after loading the view.
+    }
+    
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return .landscape
+    }
+
+    override var shouldAutorotate: Bool {
+        return true
     }
 
 

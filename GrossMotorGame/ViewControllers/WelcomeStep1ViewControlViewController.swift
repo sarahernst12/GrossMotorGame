@@ -18,13 +18,24 @@ class WelcomeStep1ViewControlViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let value = UIInterfaceOrientation.landscapeRight.rawValue
+            UIDevice.current.setValue(value, forKey: "orientation")
+        
         
         
         //initialize user model here
         self.user = User()
     }
     
+    
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return .landscape
+    }
 
+    override var shouldAutorotate: Bool {
+        return true
+    }
+    
     
     //to catch the segue in action - use prepare function that's included in all subclasses of UIViewController
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

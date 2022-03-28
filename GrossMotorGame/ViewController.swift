@@ -15,13 +15,23 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
+        let value = UIInterfaceOrientation.landscapeRight.rawValue
+            UIDevice.current.setValue(value, forKey: "orientation")
 
         //changing background color
         view.backgroundColor = .systemBlue
+        
     }
+    
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return .landscape
+    }
+
+    override var shouldAutorotate: Bool {
+        return true
+    }
+}
     
 
 
-
-}
 
