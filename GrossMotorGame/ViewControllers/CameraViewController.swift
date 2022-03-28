@@ -23,14 +23,20 @@ class CameraViewController: UIViewController, UINavigationControllerDelegate, UI
         let value = UIInterfaceOrientation.landscapeRight.rawValue
             UIDevice.current.setValue(value, forKey: "orientation")
         
-        let sound = Bundle.main.path(forResource: "Step_Away", ofType: "mp3")
+        func playSound() {
+            let sound = Bundle.main.path(forResource: "Step_Away", ofType: "mp3")!
+            let url = URL(fileURLWithPath: sound)
+        
+        //let sound = AVAudioPlayer(contentsOf: URL(fileURLWithPath: Bundle.main.path(forResource: "Step_Away", //ofType: "mp3")!))
         
         do {
             
-            audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: sound! ))
+            audioPlayer = try AVAudioPlayer(contentsOf: url)
+            audioPlayer.play()
         }
         catch{
             print(error)
+        }
         }
         
         //view.backgroundColor = .black

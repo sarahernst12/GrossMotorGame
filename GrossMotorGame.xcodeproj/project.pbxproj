@@ -19,6 +19,7 @@
 		1861AA9327F1F82300F6ED35 /* Step_Away.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1861AA9227F1F82300F6ED35 /* Step_Away.mp3 */; };
 		1861AA9527F1F98000F6ED35 /* Horizontal_Device.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1861AA9427F1F98000F6ED35 /* Horizontal_Device.mp3 */; };
 		1861AA9727F1F98800F6ED35 /* Follow_Bunny.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1861AA9627F1F98800F6ED35 /* Follow_Bunny.mp3 */; };
+		1861AA9C27F24E7800F6ED35 /* TurnHorizontalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1861AA9B27F24E7800F6ED35 /* TurnHorizontalViewController.swift */; };
 		18A466CC27B0282F00B43A23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A466CB27B0282F00B43A23 /* AppDelegate.swift */; };
 		18A466CE27B0282F00B43A23 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A466CD27B0282F00B43A23 /* SceneDelegate.swift */; };
 		18A466D027B0282F00B43A23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A466CF27B0282F00B43A23 /* ViewController.swift */; };
@@ -63,6 +64,7 @@
 		1861AA9227F1F82300F6ED35 /* Step_Away.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Step_Away.mp3; path = ../../Step_Away.mp3; sourceTree = "<group>"; };
 		1861AA9427F1F98000F6ED35 /* Horizontal_Device.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Horizontal_Device.mp3; path = ../../Horizontal_Device.mp3; sourceTree = "<group>"; };
 		1861AA9627F1F98800F6ED35 /* Follow_Bunny.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Follow_Bunny.mp3; path = ../../Follow_Bunny.mp3; sourceTree = "<group>"; };
+		1861AA9B27F24E7800F6ED35 /* TurnHorizontalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurnHorizontalViewController.swift; sourceTree = "<group>"; };
 		18A466C827B0282F00B43A23 /* GrossMotorGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrossMotorGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A466CB27B0282F00B43A23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18A466CD27B0282F00B43A23 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 				1861AA7427E7B75900F6ED35 /* AvatarViewController.swift */,
 				18A466FD27B466D400B43A23 /* WelcomeStep2ViewController.swift */,
 				18A466FB27B466B500B43A23 /* WelcomeStep1ViewControlViewController.swift */,
+				1861AA9B27F24E7800F6ED35 /* TurnHorizontalViewController.swift */,
 				1861AA7827E7B88A00F6ED35 /* ForgottencodeViewController.swift */,
 			);
 			path = ViewControllers;
@@ -325,6 +328,7 @@
 				1861AA7927E7B88A00F6ED35 /* ForgottencodeViewController.swift in Sources */,
 				18A4670027B466EB00B43A23 /* User.swift in Sources */,
 				18A466CC27B0282F00B43A23 /* AppDelegate.swift in Sources */,
+				1861AA9C27F24E7800F6ED35 /* TurnHorizontalViewController.swift in Sources */,
 				1861AA7527E7B75900F6ED35 /* AvatarViewController.swift in Sources */,
 				18A466FC27B466B500B43A23 /* WelcomeStep1ViewControlViewController.swift in Sources */,
 				18A466CE27B0282F00B43A23 /* SceneDelegate.swift in Sources */,

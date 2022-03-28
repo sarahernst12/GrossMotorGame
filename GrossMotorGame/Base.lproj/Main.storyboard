@@ -228,10 +228,10 @@
             </objects>
             <point key="canvasLocation" x="25.915080527086381" y="764.6484375"/>
         </scene>
-        <!--Instructions1-->
+        <!--Turn Horizontal View Controller-->
         <scene sceneID="ESY-nu-A0h">
             <objects>
-                <viewController id="z9u-0F-4oT" customClass="Instructions1" sceneMemberID="viewController">
+                <viewController id="z9u-0F-4oT" customClass="TurnHorizontalViewController" customModule="GrossMotorGame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vno-8s-UyN">
                         <rect key="frame" x="0.0" y="0.0" width="704" height="944"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
