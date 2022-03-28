@@ -19,7 +19,7 @@ class WelcomeStep2ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let value = UIInterfaceOrientation.landscapeRight.rawValue
+        let value = UIInterfaceOrientation.landscapeLeft.rawValue
             UIDevice.current.setValue(value, forKey: "orientation")
         
         //let backgroundImage = UIImageView(frame:UIScreen.main.bounds)
