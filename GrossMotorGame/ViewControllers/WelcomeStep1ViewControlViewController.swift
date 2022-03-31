@@ -12,13 +12,14 @@ class WelcomeStep1ViewControlViewController: UIViewController {
     @IBOutlet weak var accessCodeFieldLabel: UILabel!
     @IBOutlet weak var accessCodeField: UITextField!
     @IBOutlet weak var submitButton: UIButton!
+    @IBOutlet weak var ForgotCodeButton: UIButton!
     //create usable user model
     var user: User? //use question mark for safety
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let value = UIInterfaceOrientation.landscapeRight.rawValue
+        let value = UIInterfaceOrientation.landscapeLeft.rawValue
             UIDevice.current.setValue(value, forKey: "orientation")
         
         
