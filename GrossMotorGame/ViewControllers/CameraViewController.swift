@@ -11,18 +11,18 @@ import AVFoundation
 
 class CameraViewController: UIViewController, UINavigationControllerDelegate, UIImagePickerControllerDelegate {
     
-    private var spinner: UIActivityIndicatorView!
+    //private var spinner: UIActivityIndicatorView!
 
     //Capture Session
     // Photo Output (Don't need?)
     // video preview!!
     
     //accepts input data from captur devices like camera and microphone
-    let captureSession = AVCaptureSession()
-    var previewLayer:CALayer!
-    var captureDevice:AVCaptureDevice!
-    
-    
+//    let captureSession = AVCaptureSession()
+//    var previewLayer:CALayer!
+//    var captureDevice:AVCaptureDevice!
+//
+//
     var audioPlayer = AVAudioPlayer()
     
     override func viewDidLoad() {
@@ -47,11 +47,11 @@ class CameraViewController: UIViewController, UINavigationControllerDelegate, UI
         }
         }
         
-        //creating session to prepare camera for input
-        prepareCamera()
-        
-        //preparing camera for video output
-        prepareOutput()
+//        //creating session to prepare camera for input
+//        prepareCamera()
+//
+//        //preparing camera for video output
+//        prepareOutput()
         
 //        //check video authorization status -- video access is required and audio access is required
 //        switch AVCaptureDevice.authorizationStatus(for: .video) {
@@ -101,34 +101,33 @@ class CameraViewController: UIViewController, UINavigationControllerDelegate, UI
         // Do any additional setup after loading the view.
     }
     
-    func prepareCamera(){
-        captureSession.sessionPreset = AVCaptureSession.Preset.photo
-        //check if we have devices available
-        
-        captureSession.beginConfiguration()
-        
-        let videoDevice = AVCaptureDevice.default(.builtInWideAngleCamera, for: .video, position: .front)
-        //begin session if there is an available device
-        guard
-            //asks user to allow usage of camera
-            let captureDeviceInput = try? AVCaptureDeviceInput(device: videoDevice!), captureSession.canAddInput(captureDeviceInput)
-            else {return}
-        
-        captureSession.addInput(captureDeviceInput)
-        
-    }
-    
-    func prepareOutput(){
-        let videoOutput = AVCaptureVideoDataOutput()
-        guard captureSession.canAddOutput(videoOutput)
-        else {return}
-        
-        captureSession.sessionPreset = .high
-        captureSession.addOutput(videoOutput)
-        captureSession.commitConfiguration()
-    }
-    
-        
+//    func prepareCamera(){
+//        captureSession.sessionPreset = AVCaptureSession.Preset.photo
+//        //check if we have devices available
+//
+//        captureSession.beginConfiguration()
+//
+//        let videoDevice = AVCaptureDevice.default(.builtInWideAngleCamera, for: .video, position: .front)
+//        //begin session if there is an available device
+//        guard
+//            //asks user to allow usage of camera
+//            let captureDeviceInput = try? AVCaptureDeviceInput(device: videoDevice!), captureSession.canAddInput(captureDeviceInput)
+//            else {return}
+//
+//        captureSession.addInput(captureDeviceInput)
+//
+//    }
+//
+//    func prepareOutput(){
+//        let videoOutput = AVCaptureVideoDataOutput()
+//        guard captureSession.canAddOutput(videoOutput)
+//        else {return}
+//
+//        captureSession.sessionPreset = .high
+//        captureSession.addOutput(videoOutput)
+//        captureSession.commitConfiguration()
+//    }
+
 //        if let previewLayer = AVCaptureVideoPreviewLayer(session: captureSession){
 //            self.previewLayer = previewLayer
 //            self.view.layer.addSublayer(self.previewLayer)
